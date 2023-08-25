@@ -1,6 +1,6 @@
-const express = require('express');
-const path = require('path');
-const ProductManager = require('./ProductManager'); // Ruta al archivo ProductManager.js
+import express from 'express';
+import path from 'path';
+import ProductManager from './ProductManager.js';
 
 const app = express();
 const PORT = process.env.PORT || 8080;
